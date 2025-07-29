@@ -31,7 +31,7 @@
       <h3 class="my-4">Hello, I am</h3>
       <h1 style="font-size: 5rem">Alex Tran</h1>
       <div class="nav-container m-3 mb-5">
-        <a href="./assets/AlexTran_Resume.pdf" download target="_blank"
+        <a href="./assets/alex_tran_resume.pdf" download target="_blank"
           ><i class="fa fa-file-text"></i>Resume</a
         >
       </div>
@@ -56,7 +56,9 @@
               <i class="fa fa-location-arrow gold" aria-hidden="true"></i>
               Sterling, Virginia
             </li>
-            <li class="rem12"><i class="fa fa-phone gold"></i>(959) 207-5116</li>
+            <li class="rem12">
+              <i class="fa fa-phone gold"></i>(959) 207-5116
+            </li>
             <li class="bold gold mt-5 rem15">Technical Skills</li>
             <li class="mb-3">
               <span class="bold dark-grey rem12">Languages:</span>
@@ -131,7 +133,7 @@
           </ul>
         </div>
       </div>
-      <h3 class="gold">Work Experience</h3>
+      <h2 class="gold">Work Experience</h2>
       <div class="">
         <div class="exp"></div>
       </div>
@@ -228,88 +230,82 @@
             <p class="exp-date">July 2022 - May 2023</p>
             <p class="dark-grey">
               <span class="bold white">Project: </span>OnboardFlow – An internal
-              mobile app designed to streamline client intake, risk assessment,
-              and document generation for advisors and consultants. The app
-              automated compliance workflows, improved internal tracking, and
-              integrated with third-party custodial platforms.
+              onboarding platform designed to streamline client intake, risk
+              assessment, and document generation for wealth advisors and
+              consultants. The system automated compliance workflows, improved
+              internal tracking, and integrated with third-party custodial
+              platforms.
             </p>
           </div>
           <div class="right-exp">
             <p class="exp-title bold">Frontend Engineer</p>
             <ul>
               <li>
-                Built dynamic, form-driven mobile interfaces using
-                <span class="bold white">React Native, TypeScript</span>, and
-                <span class="bold white">Styled Components</span>, including
+                Built dynamic, form-driven UI interfaces using
+                <span class="bold white">React, TypeScript, HTML5</span>,
+                and<span class="bold white"> CSS Modules</span>, including
                 multi-step onboarding flows, real-time validation, and
                 advisor-specific client profiles.
               </li>
               <li>
-                Developed custom reusable UI components using
-                <span class="bold white">React Native hooks, custom hooks</span
-                >, and <span class="bold white">context API</span>, enabling
-                scalable and maintainable state handling across KYC, risk
-                profiling, and investment preference modules.
+                Managed complex application state using
+                <span class="bold white">Redux Toolkit</span>, with
+                <span class="bold white">RTK Query</span> for efficient API
+                calls and caching, reducing redundant API traffic by 40%.
               </li>
               <li>
-                Integrated <span class="bold white">React Navigation</span> for
-                authenticated routing, nested stack flows, and deep linking
-                support, allowing advisors to open specific client records
-                directly from emails or push notifications.
+                Developed reusable components and
+                <span class="bold white">custom hooks</span> for modular UI
+                logic and improved maintainability across the onboarding
+                workflow.
               </li>
               <li>
-                Implemented PDF generation and document preview features using
-                libraries like
-                <span class="bold white">react-native-pdf-lib</span>,
-                dynamically injecting client data for compliance forms and
-                agreements.
+                Integrated <span class="bold white">React Router</span> to
+                support authenticated routing and step-based navigation across
+                workflow modules.
+              </li>
+              <li>
+                Implemented document templating features that auto-generated
+                PDFs using <span class="bold white">jsPDF</span> and dynamically
+                populated client data into PDF templates.
+              </li>
+              <li>
+                Ensured full responsive design across iPads, desktops, and
+                mobiles using Flexbox, Grid, and cross-browser CSS techniques.
+              </li>
+              <li>
+                Collaborated with backend engineers to integrate
+                <span class="bold white">REST APIs</span> connected to internal
+                CRM systems and compliance tools.
+              </li>
+              <li>
+                Wrote unit and integration tests using
+                <span class="bold white">Jest</span> and
+                <span class="bold white">React Testing Library</span>, achieving
+                85% test coverage on key modules.
+              </li>
+              <li>
+                Helped deliver the mobile version using
+                <span class="bold white">React Native</span> and
+                <span class="bold white">TypeScript</span>, extending better
+                platform reach to 100+ advisors using iOS/Android devices.
+              </li>
+              <li>
+                Reused shared logic and state via
+                <span class="bold white">Redux Toolkit</span> and custom hooks,
+                reducing code duplication by 40%.
+              </li>
+              <li>
+                Used <span class="bold white">AsyncStorage</span> for securely
+                caching onboarding state and user context locally.
               </li>
               <li>
                 Conducted end-to-end testing with
-                <span class="bold white">Detox</span>, ensuring reliability of
-                user flows on both iOS and Android devices and minimizing
-                regressions before release.
-              </li>
-              <li>
-                Ensured full responsive design across multiple device sizes (iOS
-                and Android), with a focus on accessibility (a11y) and smooth
-                gesture interactions.
-              </li>
-              <li>
-                Collaborated with backend engineers to integrate REST APIs for
-                client data retrieval and compliance checks, and implemented
-                secure storage using
-                <span class="bold white">AsyncStorage</span> for sensitive
-                onboarding progress.
-              </li>
-              <li>
-                Contributed to CI/CD pipelines for mobile builds using
+                <span class="bold white">Detox</span> and supported deployment
+                to <span class="bold white">TestFlight</span> and
+                <span class="bold white">Google Play Console</span> using
                 <span class="bold white">Bitrise</span> and
-                <span class="bold white">Fastlane</span>, supporting automated
-                testing, code signing, and deployment to TestFlight and Google
-                Play internal testing tracks.
-              </li>
-              <li>
-                Assisted in publishing the app to Apple App Store (TestFlight
-                for internal distribution) and Google Play Console, working
-                closely with mobile ops and compliance teams to coordinate
-                releases.
-              </li>
-              <li>
-                Worked closely with advisors and onboarding specialists during
-                UAT to gather feedback and refine mobile UX, reducing training
-                needs and minimizing onboarding errors.
-              </li>
-              <li>
-                Used Git and Bitbucket for version control and contributed to
-                Jenkins CI/CD pipelines, integrating ESLint for code quality
-                enforcement and Jest for component and integration test
-                verification.
-              </li>
-              <li>
-                Participated in scrum ceremonies, demoed new features during
-                sprint reviews, and maintained shared mobile UI component
-                documentation for consistency across the team.
+                <span class="bold white">Fastlane</span> pipelines.
               </li>
             </ul>
           </div>
@@ -328,7 +324,7 @@
             </p>
           </div>
           <div class="right-exp">
-            <p class="exp-title">Software Engineer</p>
+            <p class="exp-title bold">Software Engineer</p>
             <ul>
               <li>
                 Developed feature-rich frontend interfaces using
@@ -350,6 +346,8 @@
                 Built form-intensive UIs using
                 <span class="bold white">Reactive Forms</span> with dynamic
                 validation for configuring agent settings and triggers
+              </li>
+              <li>
                 Integrated with backend APIs developed in
                 <span class="bold white">Java Spring Boot</span>, utilizing
                 RESTful endpoints to manage bots, logs, and execution status.
@@ -492,12 +490,6 @@
           <div class="project-stack">
             <span>Python</span>
             <span>PythonGraphics</span>
-            <span
-              ><a
-                href="https://github.com/hoangan1201/BaccaratGameSimulator"
-                target="_blank"
-                ><i class="bx bxl-github"></i></a
-            ></span>
           </div>
           <p class="project-description">
             A baccarat game developed in Python using an object-oriented
